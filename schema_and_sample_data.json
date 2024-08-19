@@ -1,0 +1,1544 @@
+{
+    "asset_actions": {
+        "schema": [
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "asset_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "action_type_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "action_source_info",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "action_scope",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "action_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "96f8a710-b168-598f-96b2-de85f23449d0",
+                "19a5fe23-7c36-584f-9fee-1ab25f818a82",
+                "080526ca-4ff3-579a-9b5c-0cf9c2ae5ba6",
+                "GenericAction",
+                "A genric action to perform user defined tasks",
+                null,
+                null,
+                null,
+                "2023-05-25T12:11:36.906770+00:00",
+                "2023-05-25T12:11:36.906770+00:00"
+            ]
+        ]
+    },
+    "asset_administrative_ref": {
+        "schema": [
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "is_current",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "asset_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "device_class_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "asset_owner_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "installation_date",
+                "data_type": "date"
+            },
+            {
+                "column_name": "under_lcm_contract",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "under_oem_warranty",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "oem_warranty_start_date",
+                "data_type": "date"
+            },
+            {
+                "column_name": "oem_warranty_expiry_date",
+                "data_type": "date"
+            },
+            {
+                "column_name": "oem_service_contract_start_date",
+                "data_type": "date"
+            },
+            {
+                "column_name": "oem_service_contract_expiry_date",
+                "data_type": "date"
+            },
+            {
+                "column_name": "end_of_sale_date",
+                "data_type": "date"
+            },
+            {
+                "column_name": "end_of_support_date",
+                "data_type": "date"
+            },
+            {
+                "column_name": "estimated_asset_life_in_yrs",
+                "data_type": "integer"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "purchase_date",
+                "data_type": "date"
+            },
+            {
+                "column_name": "asset_price",
+                "data_type": "numeric"
+            },
+            {
+                "column_name": "depreciation_rate",
+                "data_type": "numeric"
+            },
+            {
+                "column_name": "asset_lifecycle_status",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "client_erp_ref",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "client_erp_supplier_ref",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "project_spir_ref",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "cn_erp_ref",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "client_purchase_order_ref",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "cn_purchase_order_ref",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "lcm_contract_tier",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "asset_currency",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "oem_service_contract_ref",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "oem_contact_details",
+                "data_type": "text"
+            }
+        ],
+        "sample_data": [
+            [
+                "b317025d-92ff-595d-ac97-8845755c0b7a",
+                true,
+                "19a5fe23-7c36-584f-9fee-1ab25f818a82",
+                "7a0618a4-d4ba-583f-aadf-d92831d20925",
+                "d52054ba-d256-55ba-84ab-d630ab56c0f1",
+                "Operational",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "USD",
+                null,
+                "2023-01-01",
+                true,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "2023-05-25T12:11:36.668946+00:00",
+                "2023-05-25T12:11:36.668946+00:00"
+            ]
+        ]
+    },
+    "asset_alarms": {
+        "schema": [
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "asset_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "alarm_source_info",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "alarm_scope",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "alarm_name",
+                "data_type": "text"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "eb52f031-34fd-5ede-a668-ea7c949877e7",
+                "f6160133-a25e-5f6e-a1d0-05fbedaa254d",
+                "Unavailable by ICMP ping",
+                null,
+                null,
+                "add additional description here",
+                null,
+                "2023-06-07T14:52:38.392084+00:00",
+                "2023-06-07T14:52:38.392084+00:00"
+            ]
+        ]
+    },
+    "asset_categories": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "category_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "312dbafe-186f-5118-81d2-308f35fcd4bf",
+                "Undefined",
+                null,
+                null,
+                "2023-05-25T12:11:36.030822+00:00",
+                "2023-05-25T12:11:36.030822+00:00"
+            ]
+        ]
+    },
+    "asset_device_classes": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "asset_device_class_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "77521e57-7c4e-580a-b0e9-a785fcf65cba",
+                "Undefined",
+                null,
+                null,
+                "2023-05-25T12:11:36.036975+00:00",
+                "2023-05-25T12:11:36.036975+00:00"
+            ]
+        ]
+    },
+    "asset_device_types": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "asset_device_type_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "d69e671f-896a-55f4-9976-06f71a175c61",
+                "AAA Server",
+                null,
+                null,
+                "2023-05-25T12:11:36.193446+00:00",
+                "2023-05-25T12:11:36.193446+00:00"
+            ]
+        ]
+    },
+    "asset_hierarchy": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "parent_asset_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "child_asset_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": []
+    },
+    "action_type_hierarchy": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "parent_action_type_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "child_action_type_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": [
+            [
+                "17ecaec3-493d-520b-9449-98f6859eac37",
+                "080526ca-4ff3-579a-9b5c-0cf9c2ae5ba6",
+                "e208a6f8-c3dc-507d-826b-5d24d651f0e2",
+                "2023-05-25T12:11:36.902126+00:00",
+                "2023-05-25T12:11:36.902126+00:00"
+            ]
+        ]
+    },
+    "clients": {
+        "schema": [
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "region_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "country_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "client_address",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "client_contact",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "client_id",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "client_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "crm_reference",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "14ca7c1a-8383-5971-a362-fe60771406d1",
+                "826fa37a-63d2-50fe-8a36-88d9433eec33",
+                "8e8003cf-257f-5944-9dd2-a5580a8f72f0",
+                "500000",
+                "Commtel Networks",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "2023-05-25T12:11:35.886297+00:00",
+                "2023-05-25T12:11:35.886297+00:00"
+            ]
+        ]
+    },
+    "asset_sensors": {
+        "schema": [
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "asset_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "sensor_scope",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "sensor_source_info",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "sensor_name",
+                "data_type": "text"
+            },
+            {
+                "column_name": "sensor_type",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "value_type",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "value_unit",
+                "data_type": "character varying"
+            }
+        ],
+        "sample_data": [
+            [
+                "a1c7c764-088e-56b1-882b-926ec72719c7",
+                "f6160133-a25e-5f6e-a1d0-05fbedaa254d",
+                "ICMP ping",
+                "Simple check",
+                "number",
+                "N/A",
+                null,
+                50338,
+                "add additional description here.",
+                null,
+                "2023-06-08T06:36:54.038373+00:00",
+                "2023-06-08T06:36:54.038373+00:00"
+            ]
+        ]
+    },
+    "asset_technical_ref": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "is_current",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "asset_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "device_class_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "lcm_source_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "asset_source_info",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "technical_datasheet_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "is_active_device",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "power_supply_voltage",
+                "data_type": "integer"
+            },
+            {
+                "column_name": "psu_redundancy",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "is_monitored",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "mgmt_ip_address",
+                "data_type": "inet"
+            },
+            {
+                "column_name": "mgmt_subnet_mask",
+                "data_type": "inet"
+            },
+            {
+                "column_name": "mgmt_default_gateway",
+                "data_type": "inet"
+            },
+            {
+                "column_name": "mgmt_if_mac_id",
+                "data_type": "macaddr"
+            },
+            {
+                "column_name": "additional_technical_properties",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "dimension",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "weight_with_unit",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "environmental_specifications",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "environmental_compliance",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "is_rackmount",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "rack_unit",
+                "data_type": "integer"
+            },
+            {
+                "column_name": "is_inside_enclosure",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "is_hazloc_rated",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "hazloc_compliance",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "make",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "model",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "serial_number",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "connectivity_type",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "enclosure_tag",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "mgmt_protocol",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "psu_redundancy_type",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "other_mounting_type",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "power_supply_type",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "rack_tag",
+                "data_type": "character varying"
+            }
+        ],
+        "sample_data": [
+            [
+                "16578154-c308-5186-b238-cfee42fd629e",
+                true,
+                "19a5fe23-7c36-584f-9fee-1ab25f818a82",
+                "7a0618a4-d4ba-583f-aadf-d92831d20925",
+                "5e626055-c68b-53b0-ba1a-5cb92248f14c",
+                null,
+                null,
+                "Lenovo",
+                "SR-650",
+                "J9003EAA",
+                null,
+                null,
+                null,
+                null,
+                true,
+                "",
+                2,
+                "f27fc3b2-88bb-596d-add0-dc1ca1237ed1",
+                false,
+                "",
+                false,
+                null,
+                true,
+                "AC",
+                230,
+                true,
+                null,
+                true,
+                "IP",
+                "SNMP",
+                "192.168.4.251",
+                "255.255.255.0",
+                "192.168.4.1",
+                "6c:fe:54:52:45:0e",
+                null,
+                null,
+                "2023-05-25T12:11:36.679181+00:00",
+                "2023-05-25T12:11:36.679181+00:00"
+            ]
+        ]
+    },
+    "assets": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "client_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "project_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "location_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "category_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "system_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "device_type_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "geo_coordinates",
+                "data_type": "point"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "is_active",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "asset_tag",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "d7e8bc07-4de3-5232-b4dd-78fa3193ca47",
+                "14ca7c1a-8383-5971-a362-fe60771406d1",
+                "503a8417-e182-5693-a474-1f7184fe70e5",
+                "4b410637-d139-50b4-9667-b42dc697eb5e",
+                "07b68e33-a7ff-5d35-914f-7b7a3413527a",
+                "0a846df2-c73d-5706-ae41-7d8c7dbd63dc",
+                "90d661ea-d3d0-57a3-8786-b31bb35431e4",
+                "AI-JNCCC-PCAM-001",
+                "Sparsh CCTV Camera",
+                true,
+                "(19.053532704698984,73.02782459357108)",
+                null,
+                "2023-05-25T12:11:36.665342+00:00",
+                "2023-06-26T11:38:33.465342+00:00"
+            ]
+        ]
+    },
+    "asset_action_types": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "action_type",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "080526ca-4ff3-579a-9b5c-0cf9c2ae5ba6",
+                "System Action",
+                null,
+                null,
+                "2023-05-25T12:11:36.895991+00:00",
+                "2023-05-25T12:11:36.895991+00:00"
+            ]
+        ]
+    },
+    "asset_owners": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "client_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "last_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "department",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "email",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "employee_code",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "first_name",
+                "data_type": "character varying"
+            }
+        ],
+        "sample_data": [
+            [
+                "d52054ba-d256-55ba-84ab-d630ab56c0f1",
+                "14ca7c1a-8383-5971-a362-fe60771406d1",
+                "CNAI0001",
+                "Mehul",
+                "Shah",
+                "AIDT",
+                "mehuls@commtelnetworks.com",
+                null,
+                "2023-05-25T12:11:35.889973+00:00",
+                "2023-05-25T12:11:35.889973+00:00"
+            ]
+        ]
+    },
+    "categories_systems": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "category_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "system_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": [
+            [
+                "85820f00-a705-5dc8-9748-e1b7d2538d56",
+                "312dbafe-186f-5118-81d2-308f35fcd4bf",
+                "92c2422c-a016-5592-93c7-f76b7f2df2b2",
+                "2023-05-25T12:11:36.140143+00:00",
+                "2023-05-25T12:11:36.140143+00:00"
+            ]
+        ]
+    },
+    "asset_systems": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "system_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            }
+        ],
+        "sample_data": [
+            [
+                "92c2422c-a016-5592-93c7-f76b7f2df2b2",
+                "Undefined",
+                "For devices without proper system identification. To be used for temporary storage purpose.",
+                null,
+                "2023-05-25T12:11:36.048867+00:00",
+                "2023-05-25T12:11:36.048867+00:00"
+            ]
+        ]
+    },
+    "category_hierarchy": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "parent_category_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "child_category_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": []
+    },
+    "projects_locations": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "project_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "location_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": [
+            [
+                "28917a55-f5f9-5ad9-8828-840bf57ebb19",
+                "503a8417-e182-5693-a474-1f7184fe70e5",
+                "f27fc3b2-88bb-596d-add0-dc1ca1237ed1",
+                "2023-05-25T12:11:35.995869+00:00",
+                "2023-05-25T12:11:35.995869+00:00"
+            ]
+        ]
+    },
+    "projects": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "client_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "lcm_contract_startdate",
+                "data_type": "date"
+            },
+            {
+                "column_name": "lcm_contract_enddate",
+                "data_type": "date"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "lcm_contract_ref",
+                "data_type": "text"
+            },
+            {
+                "column_name": "lcm_contract_tier",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "project_code",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "project_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "cn_project_code",
+                "data_type": "character varying"
+            }
+        ],
+        "sample_data": [
+            [
+                "503a8417-e182-5693-a474-1f7184fe70e5",
+                "14ca7c1a-8383-5971-a362-fe60771406d1",
+                "AIDT9000",
+                "5P-LCM Development",
+                "Internal",
+                "A9000",
+                "A500000",
+                "24x7-4H",
+                "2023-03-01",
+                "2023-12-31",
+                null,
+                "2023-05-25T12:11:35.888215+00:00",
+                "2023-05-25T12:11:35.888215+00:00"
+            ]
+        ]
+    },
+    "location_hierarchy": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "parent_location_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "child_location_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": [
+            [
+                "367be771-d928-505d-b94a-e65650fe73b1",
+                "52996898-32f8-506b-9fff-cea4fa60d785",
+                "9923a0dc-5014-5df8-a167-11ded0d285f6",
+                "2023-05-25T12:11:35.951670+00:00",
+                "2023-05-25T12:11:35.951670+00:00"
+            ]
+        ]
+    },
+    "device_class_hierarchy": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "parent_device_class_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "child_device_class_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": []
+    },
+    "device_type_hierarchy": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "parent_device_type_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "child_device_type_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": []
+    },
+    "lcm_modules": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "namespace",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "module_name",
+                "data_type": "character varying"
+            }
+        ],
+        "sample_data": [
+            [
+                "76812bf9-6a3d-5adb-80a9-6a12abecac49",
+                "urn:commtelnetworks:lcm:core:assetmanagement",
+                "AssetManagement",
+                null,
+                null,
+                "2023-05-25T12:10:07.999137+00:00",
+                "2023-05-25T12:10:07.999137+00:00"
+            ]
+        ]
+    },
+    "system_hierarchy": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "parent_system_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "child_system_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": [
+            [
+                "1edf24b4-8d41-50e4-8403-354467a603a5",
+                "5079229d-d197-5a2b-b45f-4c23325caeab",
+                "d8d56551-b2ed-5c5b-aaa6-747a9ae81080",
+                "2023-05-25T12:11:36.102110+00:00",
+                "2023-05-25T12:11:36.102110+00:00"
+            ]
+        ]
+    },
+    "regions": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "region_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "region_code",
+                "data_type": "character varying"
+            }
+        ],
+        "sample_data": [
+            [
+                "a5ab9290-bc53-52e7-8a27-320cc058fd9f",
+                "Americas",
+                "AM",
+                null,
+                null,
+                "2023-05-25T12:11:35.615638+00:00",
+                "2023-05-25T12:11:35.615638+00:00"
+            ]
+        ]
+    },
+    "systems_device_types": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "system_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "device_type_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": [
+            [
+                "4a213bed-6e15-52b8-8919-3630a6897365",
+                "d5f5e57a-5c0b-52f5-8fae-9c548b64d404",
+                "f5d14955-deea-5e54-b77f-2a30db62db06",
+                "2023-05-25T12:11:36.333385+00:00",
+                "2023-05-25T12:11:36.333385+00:00"
+            ]
+        ]
+    },
+    "locations": {
+        "schema": [
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "client_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "is_hazloc",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "hazloc_spec",
+                "data_type": "jsonb"
+            },
+            {
+                "column_name": "geo_coordinates",
+                "data_type": "point"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "is_outdoor",
+                "data_type": "boolean"
+            },
+            {
+                "column_name": "location_code",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "location_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "location_type",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            }
+        ],
+        "sample_data": [
+            [
+                "52996898-32f8-506b-9fff-cea4fa60d785",
+                "14ca7c1a-8383-5971-a362-fe60771406d1",
+                "CNPL-01",
+                "Commtel-Juinagar",
+                "Facility",
+                true,
+                false,
+                null,
+                null,
+                null,
+                null,
+                "2023-05-25T12:11:35.893192+00:00",
+                "2023-05-25T12:11:35.893192+00:00"
+            ]
+        ]
+    },
+    "countries": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "region_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "description",
+                "data_type": "text"
+            },
+            {
+                "column_name": "user_tags",
+                "data_type": "ARRAY"
+            },
+            {
+                "column_name": "country_name",
+                "data_type": "character varying"
+            },
+            {
+                "column_name": "country_code",
+                "data_type": "character varying"
+            }
+        ],
+        "sample_data": [
+            [
+                "c909bab9-2dc2-5818-b7f5-020844241f59",
+                "eff9ce04-4ae2-5c01-86bb-f40c6f496a7a",
+                "Afghanistan",
+                "AF",
+                null,
+                null,
+                "2023-05-25T12:11:35.632199+00:00",
+                "2023-05-25T12:11:35.632199+00:00"
+            ]
+        ]
+    },
+    "module_asset_map": {
+        "schema": [
+            {
+                "column_name": "id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "module_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "asset_id",
+                "data_type": "uuid"
+            },
+            {
+                "column_name": "created_at",
+                "data_type": "timestamp with time zone"
+            },
+            {
+                "column_name": "updated_at",
+                "data_type": "timestamp with time zone"
+            }
+        ],
+        "sample_data": []
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "features": {
+        "ghcr.io/tailscale/codespace/tailscale": {},
+        "ghcr.io/devcontainers/features/python:1": {}
+      },
+    "remoteUser": "root",
+    "privileged": true,
+    "securityOpt": [ "seccomp=unconfined" ],
+    "runArgs": ["--device=/dev/net/tun"],
+    "postCreateCommand": "apt-get update && apt-get install -y iputils-ping && sudo tailscale up --auth-key $TAILSCALE_TOKEN --accept-routes && pip install -r requirements.txt"
+  }

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+asyncpg
+psycopg2-binary
+geoalchemy2
+python-dotenv==1.0.0
+pydantic-core
+pydantic-settings
+requests
