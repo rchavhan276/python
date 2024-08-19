@@ -12,7 +12,7 @@ from app.routers.v1 import (lcm_sources_v1, regions_v1, countries_v1, clients_v1
                             device_type_hierarchy_v1, device_types_v1, asset_location_v1)
 
 
-tags_metadata = [
+tags_metadata=[
     {
         "name": "lcm_sources_v1",
         "description": "Operations with lcm_modules table.",
